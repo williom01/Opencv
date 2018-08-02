@@ -6,11 +6,12 @@ using namespace std;
 using namespace cv;
 using namespace cv::dnn;
 
-//找到GoogleNet两个参数
+//找到GoogleNet参数
 String model_bin_file = "G:\\深度（机器）学习\\bvlc_googlenet.caffemodel";
 String model_txt_file = "D:\\软件安装包\\opencv各种版本\\opencv-3.3.0\\samples\\data\\dnn\\bvlc_googlenet.prototxt";
 String labels_txt_file = "D:\\软件安装包\\opencv各种版本\\opencv-3.3.0\\samples\\data\\dnn\\synset_words.txt";
 vector<String> readLabels();
+//主函数
 int main()
 {
 	Mat src = imread("C:\\Users\\William Liu\\Pictures\\风景\\1.jpg");
